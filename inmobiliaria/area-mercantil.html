@@ -1,0 +1,88 @@
+<?php 
+$page_title = "Asesoría Mercantil";
+$custom_css = "area-mercantil.css";
+include 'includes/header.php'; 
+?>
+
+<section class="page-header">
+    <div class="container">
+        <h1>Asesoría Mercantil</h1>
+        <p>Protección legal para sus operaciones comerciales y empresariales</p>
+    </div>
+</section>
+
+<section class="area-detail">
+    <div class="container">
+        <div class="detail-content">
+            <h2>¿En qué podemos ayudarle?</h2>
+            <p>Nuestra asesoría mercantil cubre todos los aspectos legales de su actividad empresarial:</p>
+            
+            <ul class="service-list">
+                <li><i class="fas fa-check-circle"></i> Constitución de sociedades y empresas</li>
+                <li><i class="fas fa-check-circle"></i> Contratos mercantiles y comerciales</li>
+                <li><i class="fas fa-check-circle"></i> Fusiones y adquisiciones</li>
+                <li><i class="fas fa-check-circle"></i> Derecho societario y corporativo</li>
+                <li><i class="fas fa-check-circle"></i> Protección de propiedad intelectual</li>
+            </ul>
+
+            <div class="process">
+                <h3>Nuestro proceso de trabajo</h3>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <p>Evaluación inicial de su caso</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <p>Análisis de documentación</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <p>Propuesta de solución legal</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <p>Acompañamiento en la implementación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Cuéntenos su caso</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre completo</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="form-group">
+                    <label for="case">Describa su situación</label>
+                    <textarea id="case" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar consulta</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="faq">
+    <div class="container">
+        <h2>Preguntas frecuentes</h2>
+        <div class="faq-item">
+            <button class="faq-question">¿Qué documentos necesito para constituir una empresa?</button>
+            <div class="faq-answer">
+                <p>Los requisitos varían según el tipo de sociedad, pero generalmente necesitará: identificación de los socios, nombre comercial, objeto social, capital inicial y estatutos sociales.</p>
+            </div>
+        </div>
+        <!-- Más preguntas frecuentes -->
+    </div>
+</section>
+
